@@ -11,7 +11,7 @@
           <mxGeometry height="40" width="80" x="100" y="100" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-2" parent="1" style="html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" value="Client" vertex="1">
-          <mxGeometry height="40" width="80" x="100" y="400" as="geometry" />
+          <mxGeometry height="40" width="80" x="100" y="470" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-5" edge="1" parent="1" source="7kTLVhct0OrJpmv9RzIW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#E6D0DE;strokeWidth=2;" target="7kTLVhct0OrJpmv9RzIW-7" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry height="40" width="80" x="223" y="100" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-7" parent="1" style="html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" value="Client" vertex="1">
-          <mxGeometry height="40" width="80" x="223" y="400" as="geometry" />
+          <mxGeometry height="40" width="80" x="223" y="470" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-11" edge="1" parent="1" source="7kTLVhct0OrJpmv9RzIW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#E6D0DE;strokeWidth=2;" target="7kTLVhct0OrJpmv9RzIW-13" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry height="40" width="80" x="360" y="100" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-13" parent="1" style="html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" value="Client" vertex="1">
-          <mxGeometry height="40" width="80" x="360" y="400" as="geometry" />
+          <mxGeometry height="40" width="80" x="360" y="470" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-14" edge="1" parent="1" source="7kTLVhct0OrJpmv9RzIW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#E6D0DE;strokeWidth=2;" target="7kTLVhct0OrJpmv9RzIW-16" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry height="40" width="80" x="510" y="100" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-16" parent="1" style="html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" value="Client" vertex="1">
-          <mxGeometry height="40" width="80" x="510" y="400" as="geometry" />
+          <mxGeometry height="40" width="80" x="510" y="470" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-17" edge="1" parent="1" source="7kTLVhct0OrJpmv9RzIW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#E6D0DE;strokeWidth=2;" target="7kTLVhct0OrJpmv9RzIW-19" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -47,9 +47,9 @@
           <mxGeometry height="40" width="80" x="650" y="100" as="geometry" />
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-19" parent="1" style="html=1;whiteSpace=wrap;fillColor=#d0cee2;strokeColor=#56517e;" value="Client" vertex="1">
-          <mxGeometry height="40" width="80" x="650" y="400" as="geometry" />
+          <mxGeometry height="40" width="80" x="650" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="7kTLVhct0OrJpmv9RzIW-21" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" value="name">
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-21" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" value="">
           <mxGeometry relative="1" x="-1" as="geometry">
             <mxPoint x="260" y="211" as="sourcePoint" />
             <mxPoint x="690" y="211" as="targetPoint" />
@@ -63,6 +63,41 @@
         </mxCell>
         <mxCell id="7kTLVhct0OrJpmv9RzIW-24" parent="1" style="html=1;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="1. 故障检测与Leader选举" vertex="1">
           <mxGeometry height="30" width="320" x="387" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-27" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="定期发送心跳">
+          <mxGeometry height="50" relative="1" width="50" x="0.0345" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="550" y="240" as="sourcePoint" />
+            <mxPoint x="260" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-29" parent="1" style="html=1;whiteSpace=wrap;fillColor=#fad7ac;strokeColor=#b46504;" value="2. 发生故障(宕机/网络超时)" vertex="1">
+          <mxGeometry height="30" width="150" x="190" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="&lt;div&gt;心跳超时或者连接超时&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="290" as="sourcePoint" />
+            <mxPoint x="260" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-31" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;" value="">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="690" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-32" connectable="0" parent="7kTLVhct0OrJpmv9RzIW-31" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="检测到leader失活" vertex="1">
+          <mxGeometry height="30" width="100" x="480" y="297" as="geometry" />
+        </mxCell>
+        <mxCell id="7kTLVhct0OrJpmv9RzIW-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;dashed=1;" value="触发leader选举(基于raft协议)">
+          <mxGeometry height="50" relative="1" width="50" x="0.1034" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="690" y="350" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
